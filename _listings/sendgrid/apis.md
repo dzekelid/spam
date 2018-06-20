@@ -1,16 +1,14 @@
 ---
 name: SendGrid
 x-slug: sendgrid
-description: SendGrid is a cloud-based email service that delivers email on behalf
-  of companies to increase deliverability and improve customer communications integration
-  with new or existing email systems is done via SMTP or through a REST API, providing
-  metrics on outgoing email, and handles unsubscribe links, abiding by anti-spam regulations.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
+description: Delivering your transactional and marketing emails through the worlds
+  largest cloud-based email delivery platform. Send with confidence.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "9582"
 tags: Spam
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/sendgrid/apis.md
 specificationVersion: "0.14"
 apis:
@@ -22,8 +20,8 @@ apis:
     tell SendGrid specific things to do to every email that you send to your recipients
     over SendGrid\u2019s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html)
     or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//mail_settings/forward_spam
   tags: Email,Mail, Settings, Forward, Spam
   properties:
@@ -39,8 +37,8 @@ apis:
     tell SendGrid specific things to do to every email that you send to your recipients
     over SendGrid\u2019s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html)
     or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//mail_settings/forward_spam
   tags: Email,Mail, Settings, Forward, Spam
   properties:
@@ -54,8 +52,8 @@ apis:
     specific things to do to every email that you send to your recipients over SendGrid\u2019s
     [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html) or [SMTP
     Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//mail_settings/spam_check
   tags: Email,Mail, Settings, Spam, Check
   properties:
@@ -71,8 +69,8 @@ apis:
     specific things to do to every email that you send to your recipients over SendGrid\u2019s
     [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html) or [SMTP
     Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//mail_settings/spam_check
   tags: Email,Mail, Settings, Spam, Check
   properties:
@@ -88,8 +86,8 @@ apis:
     indicates that they think your email is [spam](https://sendgrid.com/docs/Glossary/spam.html)
     and then their email provider reports this to SendGrid.\n\nFor more information,
     please see our [User Guide](https://sendgrid.com/docs/User_Guide/Suppressions/spam_reports.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//suppression/spam_reports
   tags: Email,Suppression, Spam, Reports
   properties:
@@ -103,8 +101,8 @@ apis:
     [Spam reports](https://sendgrid.com/docs/Glossary/spam_reports.html) happen when a recipient indicates that they think your email is [spam](https://sendgrid.com/docs/Glossary/spam.html) and then their email provider reports this to SendGrid.
 
     For more information, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Suppressions/spam_reports.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//suppression/spam_reports
   tags: Email,Suppression, Spam, Reports
   properties:
@@ -120,8 +118,8 @@ apis:
     [Spam reports](https://sendgrid.com/docs/Glossary/spam_reports.html) happen when a recipient indicates that they think your email is [spam](https://sendgrid.com/docs/Glossary/spam.html) and then their email provider reports this to SendGrid.
 
     For more information, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Suppressions/spam_reports.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//suppression/spam_reports/{email}
   tags: Email,Suppression, Spam, Reports, Email
   properties:
@@ -135,8 +133,8 @@ apis:
     [Spam reports](https://sendgrid.com/docs/Glossary/spam_reports.html) happen when a recipient indicates that they think your email is [spam](https://sendgrid.com/docs/Glossary/spam.html) and then their email provider reports this to SendGrid.
 
     For more information, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Suppressions/spam_reports.html).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3//suppression/spam_reports/{email}
   tags: Email,Suppression, Spam, Reports, Email
   properties:
@@ -150,15 +148,15 @@ apis:
     cost and complexity of maintaining custom email systems. SendGrid provides reliable
     delivery, scalability and real-time analytics along with flexible APIs that make
     custom integration a breeze.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: https://sendgrid.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3
   tags: Spam
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/sendgrid/openapi.md
 x-common:
-- type: x-net-library
+- type: x--net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
 - type: x-base
   url: https://api.sendgrid.com
@@ -170,10 +168,18 @@ x-common:
   url: https://sendgrid.com/contact
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/sendgrid
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/sendgrid
 - type: x-developer
   url: https://sendgrid.com/developers
 - type: x-documentation
   url: https://sendgrid.com/docs/index.html
+- type: x-email
+  url: privacy@sendgrid.com
+- type: x-email
+  url: legal@sendgrid.com
+- type: x-email
+  url: dpo@sendgrid.com
 - type: x-forum
   url: http://support.sendgrid.com/forums
 - type: x-github
@@ -186,7 +192,7 @@ x-common:
   url: https://sendgrid.com/docs/Code_Examples/java.html
 - type: x-labs
   url: http://labs.sendgrid.com/
-- type: x-nodejs-library
+- type: x-node-js-library
   url: https://sendgrid.com/docs/Code_Examples/nodejs.html
 - type: x-partners
   url: https://sendgrid.com/partners
@@ -210,6 +216,8 @@ x-common:
   url: https://sendgrid.com/tos
 - type: x-twitter
   url: https://twitter.com/SendGrid
+- type: x-website
+  url: http://sendgrid.com
 - type: x-website
   url: https://sendgrid.com/
 include: []

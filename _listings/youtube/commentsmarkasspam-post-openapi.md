@@ -21,17 +21,6 @@ consumes:
 - application/json
 paths:
   /comments/markAsSpam:
-    parameters:
-      summary: Parameters Comments Mark as SPAM
-      description: Parameters comments markasspam
-      operationId: parametersCommentsMarkasspam
-      x-api-path-slug: commentsmarkasspam-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - Comments
-      - Markasspam
     post:
       summary: Add Comments Mark as SPAM
       description: Expresses the caller's opinion that one or more comments should

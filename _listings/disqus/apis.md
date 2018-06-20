@@ -1,48 +1,44 @@
 ---
 name: Disqus
 x-slug: disqus
-description: Disqus (/d&iuml;-sk&uuml;s/) is an online discussion and commenting service
-  for websites and online communities that uses a networked platform. The company&rsquo;s
-  platform includes various features, such as social integration, social networking,
-  user profiles, spam and moderation tools, analytics, email notifications, and mobile
-  commenting.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/disqus-logo-icon-750.jpg
+description: Disqus offers the best add-on tools for websites to increase engagement.
+  We help publishers power online discussions with comments and earn revenue with
+  native advertising.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
 x-kinRank: "8"
-x-alexaRank: ""
+x-alexaRank: "850"
 tags: Spam
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/disqus/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Disqus Posts Spam
   x-api-slug: disqus
   description: Posts Spam
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/disqus-logo-icon-750.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
   humanURL: https://disqus.com/
   baseURL: https://disqus.com/api/3.0///posts/spam.json
   tags: Comments,Posts,Spam
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/disqus/postsspamjson-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/disqus/postsspam-json-post-openapi.md
 - name: Disqus Threads Spam
   x-api-slug: disqus
   description: Threads Spam
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/disqus-logo-icon-750.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
   humanURL: https://disqus.com/
   baseURL: https://disqus.com/api/3.0///threads/spam.json
   tags: Comments,Threads,Spam
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/disqus/threadsspamjson-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/disqus/threadsspam-json-post-openapi.md
 - name: Disqus
   x-api-slug: disqus
-  description: Disqus (/d&iuml;-sk&uuml;s/) is an online discussion and commenting
-    service for websites and online communities that uses a networked platform. The
-    company&rsquo;s platform includes various features, such as social integration,
-    social networking, user profiles, spam and moderation tools, analytics, email
-    notifications, and mobile commenting.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/disqus-logo-icon-750.jpg
+  description: Disqus offers the best add-on tools for websites to increase engagement.
+    We help publishers power online discussions with comments and earn revenue with
+    native advertising.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
   humanURL: https://disqus.com/
   baseURL: https://disqus.com/api/3.0/
   tags: Spam
@@ -58,6 +54,8 @@ x-common:
   url: http://blog.disqus.com/rss
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/disqus
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/disqus
 - type: x-developer
   url: https://disqus.com/api/docs/
 - type: x-github

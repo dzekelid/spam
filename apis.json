@@ -1,0 +1,166 @@
+{
+	"name": "Streadata.io API Gallery - Spam",
+	"description": "This is a repository of spam APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/spam.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://spam.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "SendGrid",
+			"x-api-slug": "sendgrid",
+			"description": "Delivering your transactional and marketing emails through the worlds largest cloud-based email delivery platform. Send with confidence.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg",
+			"humanURL": "http://sendgrid.com",
+			"baseURL": "https:///",
+			"tags": "Spam",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/sendgrid/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Disqus",
+			"x-api-slug": "disqus",
+			"description": "Disqus offers the best add-on tools for websites to increase engagement. We help publishers power online discussions with comments and earn revenue with native advertising.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg",
+			"humanURL": "https://disqus.com/",
+			"baseURL": "https:///",
+			"tags": "Spam",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/disqus/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Twitter",
+			"x-api-slug": "twitter",
+			"description": "From breaking news and entertainment to sports and politics, get the full story with all the live commentary.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png",
+			"humanURL": "https://twitter.com/",
+			"baseURL": "https://api.twitter.com//1.1",
+			"tags": "Spam",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/twitter/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dyn",
+			"x-api-slug": "dyn",
+			"description": "Dyn is home to the worlds most trusted DNS product suite and the worlds most reputable Email Deliverability Service.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg",
+			"humanURL": "http://dynect.net",
+			"baseURL": "https:///",
+			"tags": "Spam",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/dyn/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Postmark",
+			"x-api-slug": "postmark",
+			"description": "Trusted by thousands of developers, Postmark is a fast and reliable transactional email service. Send with Postmark to ensure your transactional emails get to the inbox on time, every time.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg",
+			"humanURL": "http://postmarkapp.com",
+			"baseURL": "https://api.postmarkapp.com//",
+			"tags": "Spam",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/postmark/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "reCAPTCHA",
+			"x-api-slug": "recaptcha",
+			"description": "Search the worlds information, including webpages, images, videos and more. Google has many special features to help you find exactly what youre looking for.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/646-recaptcha.jpg",
+			"humanURL": "http://code.google.com/apis/recaptcha/intro.html",
+			"baseURL": "https:///",
+			"tags": "Spam",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/recaptcha/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Datumbox",
+			"x-api-slug": "datumbox",
+			"description": "Build quickly and easily Intelligent Applications by using the power of Machine Learning!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11516-datumbox.jpg",
+			"humanURL": "http://datumbox.com",
+			"baseURL": "https://api.datumbox.com/1.0/",
+			"tags": "Spam",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/datumbox/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Shopify",
+			"x-api-slug": "shopify",
+			"description": "Shopify is a commerce platform that allows anyone to easily sell online at a retail location and everywhere in between. It offers a professional online storefront, a payment solution to accept credit cards, and the Shopify POS application to power retail sales.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png",
+			"humanURL": "https://www.shopify.com/",
+			"baseURL": "https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//",
+			"tags": "Spam",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/shopify/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Spam",
+	"include": [
+		{
+			"name": "SendGrid",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/sendgrid/apis.yaml"
+		},
+		{
+			"name": "Disqus",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/disqus/apis.yaml"
+		},
+		{
+			"name": "Twitter",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/twitter/apis.yaml"
+		},
+		{
+			"name": "Dyn",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/dyn/apis.yaml"
+		},
+		{
+			"name": "Postmark",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/postmark/apis.yaml"
+		},
+		{
+			"name": "reCAPTCHA",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/recaptcha/apis.yaml"
+		},
+		{
+			"name": "Datumbox",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/datumbox/apis.yaml"
+		},
+		{
+			"name": "Shopify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/shopify/apis.yaml"
+		}
+	]
+}

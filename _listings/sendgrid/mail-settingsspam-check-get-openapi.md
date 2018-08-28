@@ -4,12 +4,12 @@ x-collection-name: SendGrid
 x-complete: 0
 info:
   title: SendGrid Get Mail Settings Spam Check
-  description: "**This endpoint allows you to retrieve your current Spam Checker mail
-    settings.**\n\nThe spam checker filter notifies you when emails are detected that
-    exceed a predefined spam threshold.\n\nMail settings allow you to tell SendGrid
-    specific things to do to every email that you send to your recipients over SendGrid\u2019s
-    [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html) or [SMTP
-    Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
+  description: |-
+    **This endpoint allows you to retrieve your current Spam Checker mail settings.**
+
+    The spam checker filter notifies you when emails are detected that exceed a predefined spam threshold.
+
+    Mail settings allow you to tell SendGrid specific things to do to every email that you send to your recipients over SendGrid???s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html) or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html).
   version: 1.0.0
 host: api.sendgrid.com
 basePath: /v3
@@ -23,12 +23,12 @@ paths:
   /mail_settings/forward_spam:
     get:
       summary: Get Mail Settings Forward Spam
-      description: "**This endpoint allows you to retrieve your current Forward Spam
-        mail settings.**\n\nEnabling the forward spam setting allows you to specify
-        an email address to which spam reports will be forwarded.\n\nMail settings
-        allow you to tell SendGrid specific things to do to every email that you send
-        to your recipients over SendGrid\u2019s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html)
-        or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
+      description: |-
+        **This endpoint allows you to retrieve your current Forward Spam mail settings.**
+
+        Enabling the forward spam setting allows you to specify an email address to which spam reports will be forwarded.
+
+        Mail settings allow you to tell SendGrid specific things to do to every email that you send to your recipients over SendGrid???s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html) or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html).
       operationId: mail_settings.forward_spam.get
       x-api-path-slug: mail-settingsforward-spam-get
       parameters:
@@ -45,12 +45,12 @@ paths:
       - Spam
     patch:
       summary: Patch Mail Settings Forward Spam
-      description: "**This endpoint allows you to update your current Forward Spam
-        mail settings.**\n\nEnabling the forward spam setting allows you to specify
-        an email address to which spam reports will be forwarded.\n\nMail settings
-        allow you to tell SendGrid specific things to do to every email that you send
-        to your recipients over SendGrid\u2019s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html)
-        or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
+      description: |-
+        **This endpoint allows you to update your current Forward Spam mail settings.**
+
+        Enabling the forward spam setting allows you to specify an email address to which spam reports will be forwarded.
+
+        Mail settings allow you to tell SendGrid specific things to do to every email that you send to your recipients over SendGrid???s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html) or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html).
       operationId: mail_settings.forward_spam.patch
       x-api-path-slug: mail-settingsforward-spam-patch
       parameters:
@@ -72,12 +72,12 @@ paths:
   /mail_settings/spam_check:
     get:
       summary: Get Mail Settings Spam Check
-      description: "**This endpoint allows you to retrieve your current Spam Checker
-        mail settings.**\n\nThe spam checker filter notifies you when emails are detected
-        that exceed a predefined spam threshold.\n\nMail settings allow you to tell
-        SendGrid specific things to do to every email that you send to your recipients
-        over SendGrid\u2019s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html)
-        or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
+      description: |-
+        **This endpoint allows you to retrieve your current Spam Checker mail settings.**
+
+        The spam checker filter notifies you when emails are detected that exceed a predefined spam threshold.
+
+        Mail settings allow you to tell SendGrid specific things to do to every email that you send to your recipients over SendGrid???s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html) or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html).
       operationId: mail_settings.spam_check.get
       x-api-path-slug: mail-settingsspam-check-get
       parameters:

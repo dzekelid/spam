@@ -8,44 +8,40 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus
 x-kinRank: "8"
 x-alexaRank: "973"
 tags: Spam
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/disqus/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Disqus Posts Spam
-  x-api-slug: disqus
+- name: Disqus - Posts Spam
+  x-api-slug: postsspam-json-post
   description: Posts Spam
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
   humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0///posts/spam.json
-  tags: Comments,Posts,Spam
+  baseURL: https://disqus.com/api/3.0/
+  tags: Comments, Social, Content, My API Stack, Stack Network, Stack, Media, internet,
+    Technology, SaaS, API Provider, Profiles, General Data, Relative Data, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/disqus/postsspam-json-post-openapi.md
-- name: Disqus Threads Spam
-  x-api-slug: disqus
+- name: Disqus - Threads Spam
+  x-api-slug: threadsspam-json-post
   description: Threads Spam
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
   humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0///threads/spam.json
-  tags: Comments,Threads,Spam
+  baseURL: https://disqus.com/api/3.0/
+  tags: Comments, Social, Content, My API Stack, Stack Network, Stack, Media, internet,
+    Technology, SaaS, API Provider, Profiles, General Data, Relative Data, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/disqus/threadsspam-json-post-openapi.md
-- name: Disqus
-  x-api-slug: disqus
-  description: Disqus offers the best add-on tools for websites to increase engagement.
-    We help publishers power online discussions with comments and earn revenue with
-    native advertising.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0/
-  tags: Spam
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/disqus/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://digitalocean.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://disqus.stack.network
 - type: x-base
   url: https://disqus.com/api/
 - type: x-blog

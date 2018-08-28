@@ -7,47 +7,44 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jp
 x-kinRank: "8"
 x-alexaRank: "20789"
 tags: Spam
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/dyn/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Dyn Retrieve Email SPAM Complaints
-  x-api-slug: dyn
+- name: Dyn - Retrieve Email SPAM Complaints
+  x-api-slug: reportscomplaints-get
   description: Retrieve Email SPAM Complaints
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dynect.net
-  baseURL: https:////reports/complaints
-  tags: Retrieve,Email, SPAM, Complaints
+  baseURL: https:///
+  tags: DNS, DNS, DNS General, Stack Network, Technology, SaaS, Enterprise, ISP, internet,
+    Getting Started Example, API Provider, API Service Provider, Emails, Profiles,
+    Emails, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/dyn/reportscomplaints-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/dyn/reportscomplaints-get-openapi.md
-- name: Dyn Retrieve Count of Email SPAM Complaints
-  x-api-slug: dyn
+- name: Dyn - Retrieve Count of Email SPAM Complaints
+  x-api-slug: reportscomplaintscount-get
   description: Retrieving a total count of Email complaints
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dynect.net
-  baseURL: https:////reports/complaints/count
-  tags: Retrieve, Count, of,Email, SPAM, Complaints
+  baseURL: https:///
+  tags: DNS, DNS, DNS General, Stack Network, Technology, SaaS, Enterprise, ISP, internet,
+    Getting Started Example, API Provider, API Service Provider, Emails, Profiles,
+    Emails, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/dyn/reportscomplaintscount-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/dyn/reportscomplaintscount-get-openapi.md
-- name: Dyn
-  x-api-slug: dyn
-  description: Dyn is home to the worlds most trusted DNS product suite and the worlds
-    most reputable Email Deliverability Service.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dynect.net
-  baseURL: https:///
-  tags: Spam
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/dyn/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://duckduckgo.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://dyn.stack.network
 - type: x-base
   url: https://api.dynect.net
 - type: x-blog

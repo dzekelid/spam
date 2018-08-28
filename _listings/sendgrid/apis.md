@@ -7,77 +7,81 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgr
 x-kinRank: "9"
 x-alexaRank: "10000"
 tags: Spam
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/sendgrid/apis.md
 specificationVersion: "0.14"
 apis:
-- name: SendGrid Get Mail Settings Forward Spam
-  x-api-slug: sendgrid
-  description: "**This endpoint allows you to retrieve your current Forward Spam mail
-    settings.**\n\nEnabling the forward spam setting allows you to specify an email
-    address to which spam reports will be forwarded.\n\nMail settings allow you to
-    tell SendGrid specific things to do to every email that you send to your recipients
-    over SendGrid\u2019s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html)
-    or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
+- name: SendGrid - Get Mail Settings Forward Spam
+  x-api-slug: mail-settingsforward-spam-get
+  description: |-
+    **This endpoint allows you to retrieve your current Forward Spam mail settings.**
+
+    Enabling the forward spam setting allows you to specify an email address to which spam reports will be forwarded.
+
+    Mail settings allow you to tell SendGrid specific things to do to every email that you send to your recipients over SendGrid???s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html) or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//mail_settings/forward_spam
-  tags: Email,Mail, Settings, Forward, Spam
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/sendgrid/mail-settingsforward-spam-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/sendgrid/mail-settingsforward-spam-get-openapi.md
-- name: SendGrid Patch Mail Settings Forward Spam
-  x-api-slug: sendgrid
-  description: "**This endpoint allows you to update your current Forward Spam mail
-    settings.**\n\nEnabling the forward spam setting allows you to specify an email
-    address to which spam reports will be forwarded.\n\nMail settings allow you to
-    tell SendGrid specific things to do to every email that you send to your recipients
-    over SendGrid\u2019s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html)
-    or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
+- name: SendGrid - Patch Mail Settings Forward Spam
+  x-api-slug: mail-settingsforward-spam-patch
+  description: |-
+    **This endpoint allows you to update your current Forward Spam mail settings.**
+
+    Enabling the forward spam setting allows you to specify an email address to which spam reports will be forwarded.
+
+    Mail settings allow you to tell SendGrid specific things to do to every email that you send to your recipients over SendGrid???s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html) or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//mail_settings/forward_spam
-  tags: Email,Mail, Settings, Forward, Spam
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/sendgrid/mail-settingsforward-spam-patch-openapi.md
-- name: SendGrid Get Mail Settings Spam Check
-  x-api-slug: sendgrid
-  description: "**This endpoint allows you to retrieve your current Spam Checker mail
-    settings.**\n\nThe spam checker filter notifies you when emails are detected that
-    exceed a predefined spam threshold.\n\nMail settings allow you to tell SendGrid
-    specific things to do to every email that you send to your recipients over SendGrid\u2019s
-    [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html) or [SMTP
-    Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
+- name: SendGrid - Get Mail Settings Spam Check
+  x-api-slug: mail-settingsspam-check-get
+  description: |-
+    **This endpoint allows you to retrieve your current Spam Checker mail settings.**
+
+    The spam checker filter notifies you when emails are detected that exceed a predefined spam threshold.
+
+    Mail settings allow you to tell SendGrid specific things to do to every email that you send to your recipients over SendGrid???s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html) or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//mail_settings/spam_check
-  tags: Email,Mail, Settings, Spam, Check
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/sendgrid/mail-settingsspam-check-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/sendgrid/mail-settingsspam-check-get-openapi.md
-- name: SendGrid Patch Mail Settings Spam Check
-  x-api-slug: sendgrid
-  description: "**This endpoint allows you to update your current spam checker mail
-    settings.**\n\nThe spam checker filter notifies you when emails are detected that
-    exceed a predefined spam threshold.\n\nMail settings allow you to tell SendGrid
-    specific things to do to every email that you send to your recipients over SendGrid\u2019s
-    [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html) or [SMTP
-    Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
+- name: SendGrid - Patch Mail Settings Spam Check
+  x-api-slug: mail-settingsspam-check-patch
+  description: |-
+    **This endpoint allows you to update your current spam checker mail settings.**
+
+    The spam checker filter notifies you when emails are detected that exceed a predefined spam threshold.
+
+    Mail settings allow you to tell SendGrid specific things to do to every email that you send to your recipients over SendGrid???s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html) or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//mail_settings/spam_check
-  tags: Email,Mail, Settings, Spam, Check
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/sendgrid/mail-settingsspam-check-patch-openapi.md
-- name: SendGrid Delete Suppression Spam Reports
-  x-api-slug: sendgrid
+- name: SendGrid - Delete Suppression Spam Reports
+  x-api-slug: suppressionspam-reports-delete
   description: "**This endpoint allows you to delete your spam reports.**\n\nThere
     are two options for deleting spam reports: \n\n1) You can delete all spam reports
     by setting \"delete_all\" to true in the request body. \n2) You can delete some
@@ -88,13 +92,14 @@ apis:
     please see our [User Guide](https://sendgrid.com/docs/User_Guide/Suppressions/spam_reports.html)."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//suppression/spam_reports
-  tags: Email,Suppression, Spam, Reports
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/sendgrid/suppressionspam-reports-delete-openapi.md
-- name: SendGrid Get Suppression Spam Reports
-  x-api-slug: sendgrid
+- name: SendGrid - Get Suppression Spam Reports
+  x-api-slug: suppressionspam-reports-get
   description: |-
     **This endpoint allows you to retrieve all spam reports.**
 
@@ -103,15 +108,16 @@ apis:
     For more information, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Suppressions/spam_reports.html).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//suppression/spam_reports
-  tags: Email,Suppression, Spam, Reports
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/sendgrid/suppressionspam-reports-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/sendgrid/suppressionspam-reports-get-openapi.md
-- name: SendGrid Delete Suppression Spam Reports Email
-  x-api-slug: sendgrid
+- name: SendGrid - Delete Suppression Spam Reports Email
+  x-api-slug: suppressionspam-reportsemail-delete
   description: |-
     **This endpoint allows you to delete a specific spam report.**
 
@@ -120,13 +126,14 @@ apis:
     For more information, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Suppressions/spam_reports.html).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//suppression/spam_reports/{email}
-  tags: Email,Suppression, Spam, Reports, Email
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/sendgrid/suppressionspam-reportsemail-delete-openapi.md
-- name: SendGrid Get Suppression Spam Reports Email
-  x-api-slug: sendgrid
+- name: SendGrid - Get Suppression Spam Reports Email
+  x-api-slug: suppressionspam-reportsemail-get
   description: |-
     **This endpoint allows you to retrieve a specific spam report.**
 
@@ -135,29 +142,21 @@ apis:
     For more information, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Suppressions/spam_reports.html).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//suppression/spam_reports/{email}
-  tags: Email,Suppression, Spam, Reports, Email
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/sendgrid/suppressionspam-reportsemail-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/sendgrid/suppressionspam-reportsemail-get-openapi.md
-- name: SendGrid
-  x-api-slug: sendgrid
-  description: SendGrids cloud-based email infrastructure relieves businesses of the
-    cost and complexity of maintaining custom email systems. SendGrid provides reliable
-    delivery, scalability and real-time analytics along with flexible APIs that make
-    custom integration a breeze.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
-  humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3
-  tags: Spam
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/sendgrid/openapi.md
 x-common:
 - type: x--net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
+- type: x-api-gallery
+  url: http://school.digger.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://sendgrid.stack.network
 - type: x-base
   url: https://api.sendgrid.com
 - type: x-blog

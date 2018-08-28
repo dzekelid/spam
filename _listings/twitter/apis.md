@@ -3,38 +3,30 @@ name: Twitter
 x-slug: twitter
 description: From breaking news and entertainment to sports and politics, get the
   full story with all the live commentary.
-image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
 x-kinRank: "9"
 x-alexaRank: "12"
 tags: Spam
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/twitter/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Twitter Report User Spam
-  x-api-slug: twitter
+- name: Twitter - Report User Spam
+  x-api-slug: usersreport-spam-post
   description: Returna users report spam
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//users/report_spam
-  tags: Social,Users,Spam
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/twitter/usersreport-spam-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/twitter/usersreport-spam-post-openapi.md
-- name: Twitter
-  x-api-slug: twitter
-  description: From breaking news and entertainment to sports and politics, get the
-    full story with all the live commentary.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
-  humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1
-  tags: Spam
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/spam/master/_listings/twitter/openapi.md
 x-common:
 - type: x--net-library
   url: https://tweetinvi.codeplex.com/
@@ -42,6 +34,10 @@ x-common:
   url: https://docs.fabric.io/unity/mopub/overview.html
 - type: x-android-sdk
   url: https://docs.fabric.io/android/fabric/overview.html
+- type: x-api-gallery
+  url: http://twine.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://twitter.stack.network
 - type: x-apple-sdk
   url: https://docs.fabric.io/apple/fabric/overview.html
 - type: x-application-management
